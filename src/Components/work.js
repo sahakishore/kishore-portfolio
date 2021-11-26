@@ -58,7 +58,7 @@ const MyWork = [
   {
     title: "Mileauto Webapp using Next.js, RJFS",
     img: "/Mile.png",
-    link: "https://login-academic.herokuapp.com/",
+    link: "https://mileautoo-lovat.vercel.app/",
   },
   {
     title: "Movie Webapp Using MERN Stack",
