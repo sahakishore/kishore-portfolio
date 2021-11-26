@@ -59,7 +59,8 @@ function Heros(props) {
         <Grid item xs={12} sm={6}>
           <Typography className={classes.text1}>Hi There, I'm</Typography>
           <Typography class="Roboto-Slab letter-spacing grey-text heading lh mt-60">
-            Kishore Saha
+            {/* Kishore Saha */}
+            Kishore
           </Typography>
           <Typography class="Azeret-Mono grey-text subtitle">
             Web Designer & Developer

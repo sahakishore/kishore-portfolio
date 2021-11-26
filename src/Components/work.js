@@ -1,4 +1,4 @@
-import { Card, Divider, Grid, makeStyles, Typography } from "@material-ui/core";
+import { Card, Button, Divider, Grid, makeStyles, Typography } from "@material-ui/core";
 import { ArrowForward } from "@material-ui/icons";
 import React from "react";
 
@@ -51,12 +51,12 @@ const useStyle = makeStyles((theme) => ({
 
 const MyWork = [
   {
-    title: "Rasp",
+    title: "Rasp Webapp using React.js, Contentful CMS",
     img: "/Rasp.png",
     link: "https://rasp.com.au/",
   },
   {
-    title: "Mileauto",
+    title: "Mileauto Webapp using Next.js, RJFS",
     img: "/Mile.png",
     link: "https://login-academic.herokuapp.com/",
   },
