@@ -99,7 +99,7 @@ function Contact(props) {
           >
             <img src="./mail.svg" alt="mail" className={classes.mail} />
           </a>
-          <a href="tel: 8346049110 / 7001854952">
+          <a href="tel: +918346049110">
             <Call className={classes.call} />
           </a>
         </div>
