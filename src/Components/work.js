@@ -51,12 +51,12 @@ const useStyle = makeStyles((theme) => ({
 
 const MyWork = [
   {
-    title: "Rasp Supply Chain Management Website using React.js, Contentful CMS",
+    title: "Rasp Webapp using React.js,GraphQL,Contentful",
     img: "/Rasp.png",
     link: "https://rasp.com.au/",
   },
   {
-    title: "Mileauto Webapp using Next.js, RJFS",
+    title: "Mileauto Webapp using Next.js, RJSF",
     img: "/Mile.png",
     link: "https://mileautoo-main.vercel.app/",
   },
