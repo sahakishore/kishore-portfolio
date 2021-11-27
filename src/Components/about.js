@@ -98,7 +98,7 @@ function About(props) {
               <Mail />
             </IconButton>
           </a>
-          <a href="tel: 8346049110 / 7001854952">
+          <a href="tel: +918346049110">
             <IconButton className={classes.btn}>
               <Call />
             </IconButton>
