@@ -51,7 +51,7 @@ const useStyle = makeStyles((theme) => ({
 
 const MyWork = [
   {
-    title: "Rasp Webapp using React.js, Contentful CMS",
+    title: "Rasp Supply Chain Management Website using React.js, Contentful CMS",
     img: "/Rasp.png",
     link: "https://rasp.com.au/",
   },
