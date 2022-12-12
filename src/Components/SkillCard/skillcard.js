@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Divider, makeStyles, Typography } from "@material-ui/core";
+import { Card, Typography } from "@material-ui/core";
 import skillLogoArr from './skills';
 
     const handleDragStart = (e) => e.preventDefault();

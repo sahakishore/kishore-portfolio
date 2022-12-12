@@ -1,11 +1,11 @@
 import { Container, makeStyles } from "@material-ui/core";
 import React from "react";
-import About from "../Components/About";
-import Contact from "../Components/Contact";
-import Heros from "../Components/Heros";
-import Skills from "../Components/Skills";
-import Work from "../Components/Work";
-import Header from "../Layouts/Header";
+import About from "../Components/About.js";
+import Contact from "../Components/Contact.js";
+import Heros from "../Components/Heros.js";
+import Skills from "../Components/Skills.js";
+import Work from "../Components/Work.js";
+import Header from "../Layouts/Header.js";
 
 const useStyle = makeStyles((theme) => ({
   root: {
