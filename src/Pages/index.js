@@ -1,11 +1,11 @@
 import { Container, makeStyles } from "@material-ui/core";
 import React from "react";
-import About from "../Components/about";
-import Contact from "../Components/contact";
-import Heros from "../Components/heros";
-import Skills from "../Components/skills";
-import Work from "../Components/work";
-import Header from "../Layouts/header";
+import About from "../Components/About";
+import Contact from "../Components/Contact";
+import Heros from "../Components/Heros";
+import Skills from "../Components/Skills";
+import Work from "../Components/Work";
+import Header from "../Layouts/Header";
 
 const useStyle = makeStyles((theme) => ({
   root: {
@@ -13,7 +13,7 @@ const useStyle = makeStyles((theme) => ({
   },
 }));
 
-function Index(props) {
+const Main = (props)=> {
   const classes = useStyle();
   return (
     <div className={classes.root}>
@@ -29,4 +29,4 @@ function Index(props) {
   );
 }
 
-export default Index;
+export default Main;

@@ -1,13 +1,13 @@
 import "./App.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Index from "./Pages";
+import Main from "./Pages";
 
-function App() {
+const App = ()=> {
   return (
     <div>
       <BrowserRouter>
         <Switch>
-          <Route path="/" component={Index} />
+          <Route path="/" component={Main} />
         </Switch>
       </BrowserRouter>
     </div>
