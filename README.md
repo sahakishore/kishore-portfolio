@@ -1,3 +1,11 @@
+# For building docker container image
+> docker build -t kishore-porfolio:latest .
+
+# For running container the created container on specific port 5001
+> docker run -dp 5001:4000 --name kishore-portfolio-container --restart unless-stopped kishore-porfolio:latest
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
